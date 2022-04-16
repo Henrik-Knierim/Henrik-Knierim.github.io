@@ -4,3 +4,19 @@ h1 {
 p {
   font-family: 'Abel', sans-serif;
 }
+nav.nav-center ul {
+    text-align: center;
+}
+nav.nav-center ul li {
+    display: inline;
+    float: none;
+}
+nav.nav-center ul li a {
+    display: inline-block;
+    color: black;
+    font-family: 'Abel', sans-serif;
+}
+
+#fix_max_width {
+  max-width: 60%;
+}
