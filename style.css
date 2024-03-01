@@ -3,7 +3,17 @@
 }
 
 #welcome{
+  position:relative;
   background: white url("images/PIA21972_Jupiter_Blues_web.jpg") no-repeat center;
   height: 250px;
   background-size: cover;
+}
+
+#welcome::after {
+  content: "Credit: NASA/JPL"; /* Der Text, der angezeigt werden soll */
+  position: absolute; /* Absolut positioniert relativ zum übergeordneten Element */
+  bottom: 10px; /* Abstand vom unteren Rand */
+  right: 10px; /* Abstand vom rechten Rand */
+  font-size: 12px; /* Schriftgröße */
+  color: white; /* Schriftfarbe */
 }
