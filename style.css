@@ -1,3 +1,9 @@
 #test {
   border: 3px solid #73AD21;
 }
+
+#welcome{
+  background: white url("images/PIA21972_Jupiter_Blues_web.jpg") no-repeat center;
+  height: 250px;
+  background-size: cover;
+}
