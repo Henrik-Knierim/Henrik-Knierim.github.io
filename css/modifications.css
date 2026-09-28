@@ -1,8 +1,13 @@
-h1 {
-  font-family: 'Abel', sans-serif;
+:root {
+  --site-font-family: 'IBM Plex Mono', monospace;
 }
-p {
-  font-family: 'Abel', sans-serif;
+
+body {
+  font-family: var(--site-font-family);
+}
+
+.fellowship-title {
+  margin-top: -0.5rem;
 }
 nav.nav-center ul {
     text-align: center;
@@ -14,7 +19,7 @@ nav.nav-center ul li {
 nav.nav-center ul li a {
     display: inline-block;
     color: black;
-    font-family: 'Abel', sans-serif;
+  font-family: var(--site-font-family);
 }
 
 #fix_max_width {
