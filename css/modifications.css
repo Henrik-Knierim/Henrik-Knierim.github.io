@@ -20,6 +20,13 @@ nav.nav-center ul li a {
     display: inline-block;
     color: black;
   font-family: var(--site-font-family);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+nav.nav-center ul li a h5 {
+  font-weight: 700;
 }
 
 #fix_max_width {
